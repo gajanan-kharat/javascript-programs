@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+    <h2>Session Storage</h2>
+    <script>
+        window.sessionStorage.setItem("emp_name", "Elon Musk");
+        window.sessionStorage.setItem("emp_id:", 123);
+        window.sessionStorage.setItem("city", "LA");
+        window.sessionStorage.setItem("country", "USA");
+        window.sessionStorage.setItem("isMarried", true);
+        const emp_country = window.sessionStorage.getItem("country");
+        console.log(emp_country);
+        
+    </script>
+</body>
+</html>
